@@ -1,0 +1,21 @@
+Final Project Requirements
+
+- polished
+- video (60-90s)
+  - pitch your project
+  - show that all the features are fully functional
+- use a number of features we've explored/gone over in class
+  - databases
+  - API
+    - Twilio (messaging, voice)
+    - sendgrid
+  - javascript
+- use any library
+  - just have to talk to Z first for advice/confirmation
+  - pandas
+  - NLTK
+  - opencv
+- mobile
+  - a number of css & javascript libraries that will make it look nice on mobile
+  - phonegap
+    - converts your stuff into a mobile app

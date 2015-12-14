@@ -1,0 +1,13 @@
+MongoDB
+
+and { k1:v1, k2:v2, ...}
+
+or { $or: [ {k1:v1}, {k2:v2} ]
+
+< = $lt
+> = $gt
+
+db.collectionname.update(query,updated}
+	-> Replaces the found query with updated
+
+upsert = update / insert if not there

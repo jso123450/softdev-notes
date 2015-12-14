@@ -1,0 +1,5 @@
+1) enter query
+2) do Google search
+   python, google API
+   google.search("Who played Spiderman?")
+3) beautiful soup to pull the text

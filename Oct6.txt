@@ -1,0 +1,32 @@
+mySQL
+   -> basics of SQL (& free)
+   -> couuldn't  use it for something serious
+      -> did not support some features, e.g. transaction
+
+prostgress
+   -> postgresql
+   -> slow, but full version of SQL
+
+& then a back&forth race to become the better free SQL
+
+we'll be using SQLite 3
+
+SQLite 3
+   -> a standalone SQL library that implements SQL functionality
+   -> create table doughnuts (type text, price real, qty integer);
+   -> .schema doughnuts (describes it)
+   -> insert into doughnuts values ("jelly",2.50,10);
+   -> insert into doughnuts values ("glazed",3.00,20);
+   -> insert into chocolate values ("chocolate",2.00,5);
+   -> select * from doughnuts;
+   -> select type from doughnuts;
+   -> select type,qty from doughnuts;
+   -> select * from doughnuts where qty > 5;
+   -> select * from doughnuts where price > 2.2 and qty < 15;
+   -> select * from doughnuts were rowid < 2;
+   -> delete from doughnuts where rowid > 4;
+   -> select * from doughnuts;
+   -> update doughnuts set qty=qty-1 where type="jelly";
+   -> update doughnuts set qty=qty-1;
+   -> update doughnuts set qty=qty+10;
+   drop table

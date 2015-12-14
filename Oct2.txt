@@ -1,0 +1,16 @@
+Database Problem:
+
+The database your school uses to save student information is being shut down,
+and your school is switching to a new database.
+
+Birthday
+Grade
+OSIS #
+School ID#
+Attendance
+Transcript
+Schedule
+Teacher Info
+Roster
+(maybe) Historical
+

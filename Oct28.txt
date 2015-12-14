@@ -1,0 +1,21 @@
+Git Workflow
+
+Branches
+ - master
+ - dev
+ - developer 1
+ - developer 2
+ - developer 3
+
+Sequence
+ - git checkout master
+ - git pull
+ - git checkout d1
+ - git pull
+ - git merge master
+
+ - work push etc
+ - push with pull request
+
+
+

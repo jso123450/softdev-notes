@@ -1,0 +1,44 @@
+Student Database
+
+- Student Info
+- Transcript
+- Schedule
+- Attendance
+
+Ideas
+
+- Dictionary of Students
+   -  keys by OSIS
+
+- Array of Students
+   - index = ID#
+   - has a dict
+       - general info
+       	   e.g. name, address, phone
+
+Files
+   - Actually just a sequence of bytes
+   - The way the space it contains is measured is by opening the file,
+   reading it, and stoppig when there's a special symbol
+
+Relational Databases
+   - big dataset broken into many datasets, related to one another
+   - Student
+        -> ID, name, email, etc.
+   - Teacher
+	-> ID, name, email
+   - Course
+	-> ID, description
+   - Transcripts
+	-> SID, CID, TID, Term, Grade
+	-> 001, 001, 001, 2014, 67
+	-> 001, 002, 001, 2013, 99
+	-> 002, 004, 002, 2014, 92
+	-> 003, 001, 002, 2014, 92
+
+	course APCS -> 1
+	Trans -> CID = 1, Term = 2014
+	-> look over SIDs to get all students
+
+Sturctured Query Language (SQL)
+   e.g. DB2, Sybase, Oracle

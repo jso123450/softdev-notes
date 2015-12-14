@@ -1,0 +1,13 @@
+NoSQL
+-> any database that isn't SQL
+-> schemaless
+
+MongoDB
+-> Database
+-> Collection
+-> Document (BSON, variation of JavaScriptObjectNotation)
+
+SQL
+-> Database
+-> Table
+-> Record
