@@ -22,11 +22,17 @@ Final Project Requirements
 
 Ideas
 
-- bloginator + ajax
+- some kind of trip planner
+  - use tripadvisor api to pull up a bunch of nice places according to
+    location and budget
+  - compile a reasonable trip plan
+  - be able to share with friends / save it
+  - search for places with like a "regex" for locations
 - some kind of thing to make your own playlist
   - stick in a music API like soundcloud, spotify
   - a "regex" type thing for music
   - rate/comment on music
+  - share playlists with friends
 - secret chatroom for a group of friends to see how well you know them
   - to access, need to enter a code
   - register: actual name, codename, interests
