@@ -19,3 +19,21 @@ Final Project Requirements
   - a number of css & javascript libraries that will make it look nice on mobile
   - phonegap
     - converts your stuff into a mobile app
+
+Ideas
+
+- bloginator + ajax
+- some kind of thing to make your own playlist
+  - stick in a music API like soundcloud, spotify
+  - a "regex" type thing for music
+  - rate/comment on music
+- secret chatroom for a group of friends to see how well you know them
+  - to access, need to enter a code
+  - register: actual name, codename, interests
+  - everytime someone posts a message to the group, then a notification is
+    sent out to the people in the group to their registered email or w/e
+  - the notifications are randomized to look like normal emails
+    the notifications are related to the sender's interests
+  - one chance to guess who somebody is in the chatroom
+    if its wrong, you lose - a message appears in the chatroom saying 
+    your actual name & codename
